@@ -1,4 +1,4 @@
-package ua.hillelit.lms.javaproless34;
+package ua.hillelit.lms.javaproless34.repository;
 
 import lombok.Value;
 import org.springframework.stereotype.Repository;
