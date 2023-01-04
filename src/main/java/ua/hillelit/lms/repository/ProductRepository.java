@@ -1,9 +1,9 @@
-package ua.hillelit.lms.javaproless34.repository;
+package ua.hillelit.lms.repository;
 
 import lombok.Value;
 import org.springframework.stereotype.Repository;
-import ua.hillelit.lms.javaproless34.model.Product;
-import ua.hillelit.lms.javaproless34.model.ProductList;
+import ua.hillelit.lms.model.Product;
+import ua.hillelit.lms.model.ProductList;
 
 /**
  * {@link ProductRepository} is a class for getting products from the {@link ProductList}.

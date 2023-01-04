@@ -1,9 +1,9 @@
-package ua.hillelit.lms.javaproless34.configuration;
+package ua.hillelit.lms.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import ua.hillelit.lms.javaproless34.model.Product;
-import ua.hillelit.lms.javaproless34.model.ProductList;
+import ua.hillelit.lms.model.Product;
+import ua.hillelit.lms.model.ProductList;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package ua.hillelit.lms.javaproless34.model;
+package ua.hillelit.lms.model;
 
 import lombok.Value;
 

@@ -1,10 +1,10 @@
-package ua.hillelit.lms.javaproless34;
+package ua.hillelit.lms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaProLess34ApplicationTests {
+class CartAppTests {
 
     @Test
     void contextLoads() {

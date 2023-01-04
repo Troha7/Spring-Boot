@@ -1,15 +1,15 @@
-package ua.hillelit.lms.javaproless34;
+package ua.hillelit.lms;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
-import ua.hillelit.lms.javaproless34.service.Cart;
+import ua.hillelit.lms.service.Cart;
 
 
 @SpringBootApplication
-public class JavaProLess34Application {
+public class CartApp {
 
     @Autowired
     private Cart cart1;
@@ -17,7 +17,7 @@ public class JavaProLess34Application {
     private Cart cart2;
 
     public static void main(String[] args) {
-        SpringApplication.run(JavaProLess34Application.class, args);
+        SpringApplication.run(CartApp.class, args);
     }
 
     @EventListener(ApplicationReadyEvent.class)

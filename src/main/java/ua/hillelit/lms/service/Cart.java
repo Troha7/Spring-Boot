@@ -1,10 +1,10 @@
-package ua.hillelit.lms.javaproless34.service;
+package ua.hillelit.lms.service;
 
 import lombok.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
-import ua.hillelit.lms.javaproless34.repository.ProductRepository;
-import ua.hillelit.lms.javaproless34.model.Product;
+import ua.hillelit.lms.repository.ProductRepository;
+import ua.hillelit.lms.model.Product;
 
 import java.util.HashMap;
 import java.util.Map;
